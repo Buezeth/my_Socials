@@ -1,0 +1,51 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 0.5;
+}
+
+.comment-content {
+    height: auto;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    background: #fff;
+    padding: 10px 30px;
+    /* margin: auto 10px; */
+    margin-bottom: 10px;
+}
+.photo-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.comment form {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.comment form textarea {
+    /* width: 90%; */
+    height: 100px;
+    padding: 10px;
+}
+.comment form textarea:focus {
+    outline: 1px solid #8282ee;
+    border: none;
+}
+.comment form button {
+    width: 100px;
+    padding: 10px 5px;
+    border: 1px solid #8282ee;
+    background: #fff;
+}
+.comment .content {
+    /* color: #888a8d; */
+    padding-bottom: 10px;
+}
+
+.comment .date {
+    color: #888a8d;
+    font-size: smaller;
+}

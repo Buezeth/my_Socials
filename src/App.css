@@ -1,0 +1,41 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+ .App {
+  padding-bottom: 10px;
+ }
+ .nav-side-bar {
+  display: flex;
+  width: 100%;
+ }
+ .main-page {
+   padding-top: 50px;
+   position: relative;
+   padding-left: 50px;
+   width: 82%;
+  }
+  .side-padding {
+   padding-left: 350px;
+   z-index: 0;
+
+ }
+ .right-SideBar {
+  position: fixed;
+  right: 15px;
+  top: 100px;
+  max-width: 15%;
+  min-width: 15%;
+  background: #fff;
+  height: 80vh;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  border-bottom: 10px solid #8282ee;
+  z-index: 1000;
+ }
+
+ button:hover {
+  cursor: pointer;
+ }

@@ -1,0 +1,16 @@
+.project {
+    display: flex;
+    justify-content: space-between;
+    min-width: fit-content;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.summary {
+    flex-grow: 0.5;
+}
+.summary button {
+    padding: 10px;
+    margin-top: 40px;
+    background: #fff;
+    border: 1px solid #8282ee;
+}
